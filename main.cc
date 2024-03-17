@@ -1,8 +1,10 @@
 // Author: Ryan Vickramasinghe
-#include "concurrent-counter.h"
+#include <iostream>
+#include "counter/concurrent-counter.h"
 
 int main() {
     ConcurrentCounter counter(2);
+    std::cout << "Hello!" << std::endl;
 
     return 0;
 }

@@ -12,8 +12,4 @@ class ConcurrentCounter {
    const std::vector<std::mutex> locks_;
 };
 
-void test() {
-
-}
-
 #endif // CONCURRENT_COUNTER_H
